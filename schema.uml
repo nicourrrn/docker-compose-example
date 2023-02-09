@@ -1,0 +1,6 @@
+@startuml
+
+[Server] <-- [Client] : /+1 every 10 sec 
+[Server] <-- [User] :  /+1 every req 
+
+@enduml
